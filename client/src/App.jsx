@@ -1,10 +1,12 @@
-import './App.css';
+import Landing from "./components/Landing/Landing";
+import {Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Videogames</h1>
-    </div>
+  <>
+  <Landing/>
+  </>
   );
 }
 
