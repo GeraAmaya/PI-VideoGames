@@ -1,0 +1,51 @@
+body{
+ margin: 0;
+height: 1100px;
+ background-image: url("../../../img/fondoHome.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+ font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+  }
+
+
+
+
+
+  .botton-page {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botton-page:hover {
+    background-color: #ddd;
+  }
+  
+  .page{
+    color: white;
+  }
+  

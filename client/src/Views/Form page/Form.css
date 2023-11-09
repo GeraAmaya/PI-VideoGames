@@ -1,0 +1,89 @@
+form {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  border: 1px solid #702e87;
+  background-color: rgba(41, 75, 144, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-right: 40px; /* Agregamos un poco de espacio interno al formulario */
+  overflow-y: auto; 
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+.container input {
+  font-size: 16px;
+  color:white ;
+  background-color: rgba(146, 152, 164, 0.5);
+  width: 100%;
+  border: 1px unset #8a3434;
+  border-radius: 10px;
+  padding: 10px; /* Añadimos un poco de espacio interno a los campos de entrada */
+}
+
+.container input:focus {
+  border-color: #2b8e15;
+  outline: none;
+}
+
+.container input::placeholder {
+  color: #ffffff;
+}
+
+
+
+.checkbox-container {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Para que los grupos de checkboxes se distribuyan horizontalmente */
+  margin-bottom: 20px; /* Espacio entre los grupos de checkboxes y el botón */
+}
+
+.checkbox-column {
+  flex-basis: calc(33% - 10px); /* Divide en columnas de 4 con un espacio de 10px */
+  margin-bottom: 10px; /* Espacio entre las filas de checkboxes */
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-button[type="submit"] {
+  display: flex;
+  background-color: #429310;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: auto;
+  align-items: center;
+}
+
+.form-button[type="submit"]:hover {
+  background-color: #063f0d;
+}
+.form-button[type="submit"]:disabled {
+  margin-top: 15px;
+  background-color: #b8b507; 
+  border-radius: 10px;
+  color: black;
+  cursor: not-allowed; 
+}
+
+.parrafo3 {
+  color: #f30808;
+}

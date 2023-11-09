@@ -1,7 +1,7 @@
 const PATHROUTES ={
     LANDING: '/',
-    HOME: '/home',
-    DETAIL: 'detail/:id',
+    HOME:'/home',
+    DETAIL: '/detail',
     FORM: '/form',
 
 };

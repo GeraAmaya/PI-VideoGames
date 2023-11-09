@@ -1,0 +1,52 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 400px;
+  height: 400px;
+  background-color: rgba(239, 243, 237, 0.616);
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 0 12px #1505f398;
+  padding: 5px; /* Aumentamos el espacio interior */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: bold; /* Cambiamos a "small" para mejorar la legibilidad */
+}
+
+
+h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin:3px;
+  
+}
+
+p{
+  margin-top: 5px;
+}
+
+
+img {
+
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Agregamos margen inferior a la imagen */
+}
+
+.CardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Card button {
+  position:relative;
+  align-self: flex-end ;/* Coloca el botón al final (esquina inferior derecha) */
+ 
+  color: rgb(231, 8, 8);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+

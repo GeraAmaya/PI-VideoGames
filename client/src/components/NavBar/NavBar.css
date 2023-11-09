@@ -1,0 +1,41 @@
+/* .NavBar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(21, 179, 179);
+    border: solid;
+} */
+
+  /* Estilos de la NavBar */
+  .NavBar {
+    background-color:#122dc95b; /* Color de fondo de la NavBar */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px; /* Altura de la NavBar */
+  }
+  
+  /* Estilos de los enlaces (links) en la NavBar */
+  .NavBar a {
+    color: #f7f0f0; /* Color del texto de los enlaces */
+    text-decoration: none;
+    padding: 0 20px; /* Espacio interno (padding) en los enlaces */
+    font-size: 1.2rem; /* Tamaño del texto de los enlaces */
+  }
+  
+  
+
+  select{
+    border: none;
+    background-color: rgba(164, 172, 169, 0.329);
+    border-radius: 10px;
+    padding: 2px;
+  }
+
+  .button-reset{
+   cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(164, 172, 169, 0.329);
+    border-radius: 10px;
+    padding: 4px;
+ }

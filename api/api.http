@@ -1,0 +1,31 @@
+GET http://localhost:3001/genres
+
+###
+
+GET http://localhost:3001/videogamesname?name=
+
+
+###
+
+GET http://localhost:3001/videogames
+
+###
+
+GET http://localhost:3001/videogames/58fb0c28-2c31-4c1e-8a51-be8701674384
+
+###
+
+DELETE http://localhost:3001/delete/a968b16c-4509-461e-a6d3-da9c52055cc6
+
+###
+
+POST http://localhost:3001/videogames
+Content-Type: application/json 
+
+{"Nombre":"Wild Rift",
+"Descripcion":"Un juego vicioso", 
+"Plataformas":"Android e ios", "Imagen":"bhiobhiobuyhiobuhyio.jpg", 
+"Rating":"5",
+"FechaLanzamiento":"15/05/2019",
+"Genero":["Action","Shooter"]
+}
