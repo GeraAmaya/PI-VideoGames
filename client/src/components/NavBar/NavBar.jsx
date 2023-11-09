@@ -46,6 +46,7 @@ const NavBar = () => {
   return (
     <div className="NavBar">
       <select id="ByGenero" onChange={ByGenres}>
+   
         <option value="Action">ACTION</option>
         <option value="Indie">Indie</option>
         <option value="RPG">RPG</option>
@@ -83,8 +84,8 @@ const NavBar = () => {
       </button>
       <Search></Search>
 <Link to={"/home"}>Home</Link>
-<Link to={"/create"}>Crear</Link>
-<Link to={"/"}>Salir</Link>
+<Link to={"/create"}>Create Game</Link>
+
     </div>
   );
 };

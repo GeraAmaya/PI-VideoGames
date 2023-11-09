@@ -33,7 +33,7 @@ const Search = () => {
         <input
           className="searchInput"
           type="text"
-          placeholder="Busca tu Videogame"
+          placeholder="Look for your Game"
           value={search}
           onChange={handleChange}
         />

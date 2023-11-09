@@ -21,9 +21,11 @@ const Card = ({ Rating, id, image, nombre, genre }) => {
       <h3>{nombre}</h3>
       <p>Genero:{genre}</p>
       <p>Rating: {Rating}</p>
+    
       <NavLink to={`/detail/${id}`} className="CardLink">
         <img src={image} alt={nombre} />
       </NavLink>
+      
     </div>
   );
 };

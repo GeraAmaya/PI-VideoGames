@@ -3,12 +3,12 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
   max-width: 500px;
-  border: 1px solid #702e87;
-  background-color: rgba(41, 75, 144, 0.5);
+  border: 3px solid #f80505c7;
+  background-color: rgba(23, 117, 224, 0.5);
   border-radius: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  padding-right: 40px; /* Agregamos un poco de espacio interno al formulario */
+  padding-right: 40px;
   overflow-y: auto; 
 }
 
@@ -21,9 +21,9 @@ form {
   color:white ;
   background-color: rgba(146, 152, 164, 0.5);
   width: 100%;
-  border: 1px unset #8a3434;
+  border: 5px unset #8a3434;
   border-radius: 10px;
-  padding: 10px; /* Añadimos un poco de espacio interno a los campos de entrada */
+  padding: 10px;
 }
 
 .container input:focus {
@@ -78,7 +78,7 @@ input[type="checkbox"] {
 }
 .form-button[type="submit"]:disabled {
   margin-top: 15px;
-  background-color: #b8b507; 
+  background-color: #8aee07; 
   border-radius: 10px;
   color: black;
   cursor: not-allowed; 
