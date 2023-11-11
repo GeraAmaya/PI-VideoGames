@@ -53,11 +53,11 @@ const Form = () => {
 
   const changeHandler = (event) => {
     const property = event.target.name; //propiedad del estado form = name del imput
-    const value = event.target.value; // guardo el valuo (cuando tipeo en el imput)
+    const value = event.target.value; // guardo el value (cuando tipeo en el imput)
 
     setForm({ ...form, [property]: value }); //seteo el etado del formulario con las values correspondientes
 
-    setErrors(validate({ ...form, [property]: value })); //llamo a la funcion validate pasandole lo mismo que al setForm para que nop ocurra un desfasaje
+    setErrors(validate({ ...form, [property]: value })); //llamo a la funcion validate pasandole lo mismo que al setForm 
   };
 
   // La función isFormValid verifica si no hay mensajes de error en el estado `errors`.

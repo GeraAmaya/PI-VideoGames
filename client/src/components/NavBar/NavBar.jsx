@@ -68,16 +68,16 @@ const NavBar = () => {
         <option value="Fighting">Fighting</option>
       </select>
       <select onChange={alphabeticOrderr}>
-        <option value="A-Z">A-Z</option>
-        <option value="Z-A">Z-A</option>
+        <option value="A-Z">A/Z</option>
+        <option value="Z-A">Z/A</option>
       </select>
       <select onChange={numberOrder}>
-        <option value=">">Rating {">"} Rating</option>
-        <option value="<">Rating {"<"} Rating</option>
+        <option value=">">Rating +</option>
+        <option value="<">Rating - </option>
       </select>
       <select onChange={orderFromm}>
-        <option value="API">Games en API</option>
-        <option value="DB">Games en base de datos</option>
+        <option value="API">Games in API</option>
+        <option value="DB">Games based</option>
       </select>
       <button className="button-reset" type="button" onClick={cleaner}>
         RESET

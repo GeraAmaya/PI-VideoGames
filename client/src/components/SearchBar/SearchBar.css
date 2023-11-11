@@ -13,10 +13,11 @@
   }
   
   .searchInput {
-    background-color: rgba(240, 248, 255, 0.644);
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.5);
     padding: 8px 12px;
     border: 1px solid #cccccc31;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
     margin-right: 10px;
     font-size: 16px;

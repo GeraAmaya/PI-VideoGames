@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { searchVideogame } from "../../Redux/Actions";
 import "./SearchBar.css";
 
-// Primera forma buscar en el stado general
+//  busco en el estado general
 
 const Search = () => {
   const allVideogames = useSelector((state) => state.backup);
