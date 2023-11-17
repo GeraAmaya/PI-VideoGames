@@ -56,6 +56,7 @@ const Home = () => {
   
   return search.length !== 0 && search.length < 15 ? (
     <div className="caja">
+
       <CardsContainer allVideogames={search}></CardsContainer>
     
       <div className="button-container">
@@ -91,7 +92,7 @@ const Home = () => {
           onClick={handlePrevPage}
           disabled={currentPage === 1}
         >
-          Prev
+          PREV
         </button>
         
         <div className="page">
@@ -104,7 +105,7 @@ const Home = () => {
             currentPage === Math.ceil(videogames.length / VideogamesPerPage)
           }
         >
-          Next
+          NEXT
         </button>
       </div>
     </div>

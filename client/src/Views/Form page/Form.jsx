@@ -68,6 +68,15 @@ const Form = () => {
   //funcion que previene el comportamiento default del submit (recargado de pagina) y hace la peticion post al backend
   const submitHandler = (event) => {
     event.preventDefault();
+    
+// Verificar si ya existe un juego con el mismo nombre
+/*const existingGame = useSelector((state) => state.videogames.find((game) => game.Nombre === form.Nombre));
+if (existingGame) {
+  alert("Ya existe un juego con este nombre. Por favor, elige otro nombre.");
+  return;
+}
+*/
+    
 
     axios
       .post("https://deploy-pi-videogame.onrender.com/videogames", form)
